@@ -58,7 +58,13 @@ I also used methods such as stacking and voting.
 
 
 ### Results
-The best performing algorithm was stacking.
+The best performing algorithm was stacking, I ran the model and a linear regression again to serve as a baseline.
+
+The two common metrics to assess performance for regression models are **R squared (R2)** and **Root Mean Squared Error (RMSE)**.
+
+**R-squared** is a statistical measure of how close the data are to the fitted regression line. It represents how much of the variation of the dependent variable (Target) can be explained by the independent variables (predictors).
+
+**Root Mean Squared Error (RMSE)** is the standard deviation of the residuals (prediction errors).
 
 ![Screenshot 2022-09-03 at 17 52 58](https://user-images.githubusercontent.com/56136026/188280717-acb3a83e-2329-4b15-9992-e91ee41d8c13.png)
 
@@ -70,7 +76,7 @@ Median= 0.823, Average = 0.812
 
 **Linear Regression RMSE:**
 
-Median = 6.862, Average = 6.808 MPa
+Median = 6.862, Average = 6.808 
 
 **Stacking R2:**
 
